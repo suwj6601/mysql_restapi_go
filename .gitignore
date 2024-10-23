@@ -1,0 +1,37 @@
+# Binaries for programs and plugins
+*.exe
+*.dll
+*.so
+*.dylib
+*.test
+
+# Output of the Go build process
+bin/
+build/
+*.out
+
+# Temporary files
+*.log
+*.tmp
+*.swp
+*.swo
+*.bak
+
+# Vendor directory (if you're using vendoring with go mod vendor)
+vendor/
+
+# IDE-specific directories (you can modify based on your editor/IDE)
+.idea/
+.vscode/
+*.iml
+
+# Go modules and package dependencies
+# Comment out if you are not using Go modules
+go.sum
+
+# MacOS related files
+.DS_Store
+
+# Exclude configuration or environment files
+.env
+.env.local

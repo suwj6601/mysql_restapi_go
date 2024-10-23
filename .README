@@ -1,0 +1,5 @@
+https://github.dev/sikozonpc/ecom
+
+command air: export PATH=$PATH:$(go env GOPATH)/bin
+
+command create migration script: make migration_create name=init_mg
